@@ -91,7 +91,6 @@ p {
 
 .server {
  margin-top: 0;
- mix-blend-mode: multiply;
 }
 
 .nd-img {
@@ -183,11 +182,16 @@ p {
 .numbers {
  font-weight: bolder;
  font-size: xx-large;
- background-color: rgba(243, 236, 238, 0.968);
 
 }
 
 footer {
  text-align: center;
  justify-content: center;
+}
+
+@media screen and (min-width:300px) {
+ html {
+  min-width: fit-content;
+ }
 }
