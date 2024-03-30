@@ -23,13 +23,45 @@ p {
 
 .first-page {
  color: rgb(61, 42, 42);
- background-image: url();
- /* min-height: 100%;
- max-width: 1500px; */
- padding: 20px;
+ background-image: url(./background1.jpg);
  background-position: cover;
- background-size: c;
+ background-size: cover;
  background-repeat: no-repeat;
+ padding: 50px;
+ justify-content: center;
+ text-align: center;
+}
+
+.start1 {
+ border: 1px solid white;
+ margin-right: 15px;
+ padding: 12px;
+ border-radius: 14px 14px 14px 14px;
+ width: 150px;
+ font-weight: bold;
+}
+
+.start2 {
+ border: 2px solid white;
+ margin-right: 10px;
+ padding: 10px;
+ border-radius: 16px 16px 16px 16px;
+ width: 150px;
+ font-weight: bold;
+ color: aliceblue;
+ background-color: transparent;
+}
+
+.main {
+ margin-top: 18px;
+ font-size: 5rem;
+ color: aliceblue;
+}
+
+.main1 {
+ font-size: 18px;
+ color: aliceblue;
+ margin-bottom: 10px;
 }
 
 .second-page {
@@ -44,9 +76,12 @@ p {
  justify-content: space-around;
  margin-top: 30px;
  margin-bottom: 20px;
- padding: 10px;
+ padding: 12px;
+ justify-content: center;
+ text-align: center;
 
 }
+
 
 .fourth-page {
  display: flex;
@@ -66,6 +101,16 @@ p {
  border-radius: 0 10px 10px 0;
 }
 
+.secure {
+ margin-top: 30px;
+}
+
+.icon {
+ border: none;
+ width: 30px;
+ margin-left: 4px;
+}
+
 .get {
  border: 0.5px solid #161de2;
  border-radius: 22px 22px 22px 22px;
@@ -75,6 +120,7 @@ p {
  background-color: #161de2;
  color: whitesmoke;
  font-weight: bold;
+
 }
 
 .get2 {
@@ -135,6 +181,8 @@ p {
 .numbers {
  font-weight: bolder;
  font-size: xx-large;
+ background-color: rgba(243, 236, 238, 0.968);
+
 }
 
 footer {
