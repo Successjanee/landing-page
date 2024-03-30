@@ -1,0 +1,143 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ font-family: 'Times New Roman', Times, serif;
+ padding: 20;
+}
+
+
+header {
+ display: flex;
+ position: sticky;
+ margin-top: 0;
+ mix-blend-mode: lighten;
+}
+
+p {
+ font-size: 12px;
+}
+
+.first-page {
+ color: rgb(61, 42, 42);
+ background-image: url();
+ /* min-height: 100%;
+ max-width: 1500px; */
+ padding: 20px;
+ background-position: cover;
+ background-size: c;
+ background-repeat: no-repeat;
+}
+
+.second-page {
+ display: grid;
+ margin-top: 60px;
+ grid-template-columns: 2fr 2fr;
+ padding: 10px;
+}
+
+.third-page {
+ display: flex;
+ justify-content: space-around;
+ margin-top: 30px;
+ margin-bottom: 20px;
+ padding: 10px;
+
+}
+
+.fourth-page {
+ display: flex;
+ justify-content: space-around;
+ background-color: rgba(243, 236, 238, 0.968);
+}
+
+.server {
+ margin-top: 0;
+ mix-blend-mode: multiply;
+}
+
+.nd-img {
+ margin-right: 4px;
+ width: 300px;
+ border: 1px light lightslategray;
+ border-radius: 0 10px 10px 0;
+}
+
+.get {
+ border: 0.5px solid #161de2;
+ border-radius: 22px 22px 22px 22px;
+ padding: 12px;
+ width: 170px;
+ height: 38px;
+ background-color: #161de2;
+ color: whitesmoke;
+ font-weight: bold;
+}
+
+.get2 {
+ border: 0.5px solid #161de2;
+ border-radius: 22px 22px 22px 22px;
+ padding: 12px;
+ width: 130px;
+ height: 38px;
+ background-color: #161de2;
+ color: whitesmoke;
+ font-weight: bold;
+}
+
+.third {
+ border-radius: 25px 25px 25px 25px;
+ width: 150px;
+ height: 80px;
+ justify-content: center;
+ text-align: center;
+ align-items: center;
+}
+
+.first-footer {
+ align-items: center;
+ text-align: center;
+ margin-top: 25px;
+ margin-bottom: 40px;
+}
+
+.second-footer {
+ background-color: rgba(243, 236, 238, 0.968);
+}
+
+.last-footer {
+ align-items: center;
+ text-align: center;
+ margin-bottom: 0;
+}
+
+.last-button {
+ border: 0.5px solid #161de2;
+ border-radius: 22px 22px 22px 22px;
+ padding: 12px;
+ width: 250px;
+ height: 40px;
+ background-color: #161de2;
+ color: whitesmoke;
+ font-weight: bold;
+}
+
+.center {
+ text-align: center;
+ font-weight: bolder;
+ font-size: 50px;
+ background-color: rgba(243, 236, 238, 0.968);
+}
+
+.numbers {
+ font-weight: bolder;
+ font-size: xx-large;
+}
+
+footer {
+ text-align: center;
+ justify-content: center;
+}
