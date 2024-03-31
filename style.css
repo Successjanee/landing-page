@@ -91,6 +91,7 @@ p {
 
 .server {
  margin-top: 0;
+ mix-blend-mode: multiply;
 }
 
 .nd-img {
